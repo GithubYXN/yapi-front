@@ -8,7 +8,7 @@ export type Props = {
   values: API.InterfaceInfo;
   columns: ProColumns<API.InterfaceInfoUpdateRequest>[];
   onCancel: () => void;
-  onSubmit: (values: API.InterfaceInfoUpdateRequest) => Promise<boolean>;
+  onSubmit: (values: API.InterfaceInfoUpdateRequest) => Promise<void>;
   open: boolean;
 };
 

@@ -1,5 +1,5 @@
 import { PageContainer } from '@ant-design/pro-components';
-import { Avatar, Card, List, message, Skeleton, theme } from 'antd';
+import { List, message } from 'antd';
 import React, { useEffect, useState } from 'react';
 import { listInterfaceInfoByPageUsingGet } from '@/services/yapi-backend/interfaceInfoController';
 

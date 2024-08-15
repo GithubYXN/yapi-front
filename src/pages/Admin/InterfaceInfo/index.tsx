@@ -448,7 +448,7 @@ const TableList: React.FC = () => {
           handleModalOpen(false);
         }}
         onSubmit={(values) => {
-          handleAdd(values);
+          return handleAdd(values);
         }}
         open={createModalOpen}
       />
